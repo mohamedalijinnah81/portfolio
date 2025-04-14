@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { IoCodeSlash } from "react-icons/io5";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,28 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Developer Intern",
+    location: "Sahibganj, Jharkhand",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "During my final year, I worked on internships in parallel with my studies.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "iOS Developer Trainee",
+    location: "Tirunelveli, Tamil Nadu",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as an iOS Mobile App Developer Trainee at Zoho for 2 months, where I contributed to real-world projects and gained hands-on experience with Swift, UIKit, and Xcode.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: ".NET Full Stack Developer",
+    location: "Tirunelveli, Tamil Nadu",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a .NET Full Stack Developer, where I gained solid knowledge and hands-on experience in C#, .NET, ASP.NET, AngularJS, and Microsoft SQL Server. I contributed to the development of enterprise-level ERP, CRM, Accounting, Finance, and Inventory applications.",
+    icon: React.createElement(IoCodeSlash),
+    date: "2024",
+  },
+  {
+    title: "Software Developer",
+    location: "Chennai, Tamil Nadu",
+    description:
+      "I'm currently working as a Full Stack Developer using modern technologies like React, Next.js, Strapi, REST APIs, MySQL, and Node.js. I also contribute to projects built with C#, .NET, and ASP.NET. ",
+    icon: React.createElement(IoCodeSlash),
+    date: "2024 - present",
   },
 ] as const;
 
@@ -91,17 +100,27 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "REST API",
+  "Strapi",
   "Node.js",
+  "C#",
+  ".NET",
+  "ASP.NET",
+  "MVC",
+  "AngularJS",
+  "Web API",
+  "Bootstrap",
+  "Microsoft SQL Server",
+  "AJAX",
+  // "Subversion",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Postman API",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "MySQL",
+  "Microsoft Azure",
+  // "jQuery",
+  "PHP",
+  "WordPress",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
