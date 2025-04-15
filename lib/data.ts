@@ -4,8 +4,10 @@ import { FaReact } from "react-icons/fa";
 import { IoCodeSlash } from "react-icons/io5";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import liveChatImg from "@/public/livechat.png";
+import lumelImg from "@/public/lumel.png";
+import ihdImg from "@/public/ihd.png";
+import gimzoGalaxyImg from "@/public/gimzogalaxy.png";
 
 export const links = [
   {
@@ -71,25 +73,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "IHD",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An enterprise ERP application built for IHD (a subsidiary of Hyundai). Implemented inventory and finance modules, and managed stock calculations.",
+    tags: ["C#", ".NET", "MVC", "ASP.NET", "AngularJS", "Web API", "Microsoft SQL Server"],
+    imageUrl: ihdImg,
   },
   {
-    title: "rmtDev",
+    title: "Lumel",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A semi-static website designed to handle content dynamically via Strapi. Developed reusable components and integrated APIs for dynamic data rendering.",
+    tags: ["React", "Next.js", "TypeScript", "Strapi", "Node.js", "Tailwind"],
+    imageUrl: lumelImg,
   },
   {
-    title: "Word Analytics",
+    title: "LiveChat",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A real-time chat application built with modern technologies. Implemented one-to-one and group chat features.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Redux"],
+    imageUrl: liveChatImg,
+  },
+  {
+    title: "GimzoGalaxy",
+    description:
+      "An e-commerce web app for purchasing electronic gadgets and appliances. Utilized a real-time Amazon scraper API to fetch products, categories, and details.",
+    tags: ["React", "Node.js", "REST API", "Tailwind"],
+    imageUrl: gimzoGalaxyImg,
   },
 ] as const;
 
